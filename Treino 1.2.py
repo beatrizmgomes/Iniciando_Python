@@ -12,12 +12,12 @@ elif idade <= 2 and bpm > 140:
     print("Seus batimentos por minuto estão acima da faixa adequada para sua idade.")
 
 
-# de 2 até 17 anos
-elif (idade >= 2 <= 18) and (bpm >= 80 <= 100):
+# de 8 até 17 anos
+elif (idade >= 8 < 18) and (bpm >= 80 <= 100):
     print("Seus batimentos por minuto estão dentro da faixa adequada para sua idade.")
-elif (idade >= 2 < 18) and bpm < 80:
+elif (idade >= 8 < 18) and bpm < 80:
     print("Seus batimentos por minuto estão abaixo da faixa adequada para sua idade.")
-elif (idade >= 2 < 18) and bpm > 100:
+elif (idade >= 8 < 18) and bpm > 100:
     print("Seus batimentos por minuto estão acima da faixa adequada para sua idade.")
 
 
