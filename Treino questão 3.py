@@ -10,9 +10,9 @@ c1 = [m1, m2, m3, m4, m5].count('1')
 c2 = [m1, m2, m3, m4, m5].count('2')
 c3 = [m1, m2, m3, m4, m5].count('3')
 
-if c1 > (c2 and c3):
+if (c1 > c2) and (c1 > c3):
     print("Playstation ganhou!")
-elif c2 > (c1 and c3):
+elif (c2 > c1) and (c2 > c3):
     print("XBOX ganhou!")
 else:
     print("Nintendo ganhou!")
